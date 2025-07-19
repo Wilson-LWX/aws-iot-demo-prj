@@ -4,12 +4,12 @@ An end-to-end IoT monitoring demo based on **STM32MP157 + AWS IoT Core + Python 
 
 ## Project Structure
 
-- `gui_monitor/` 每 Python desktop app for real-time sensor monitoring and alerts.
+- `gui_monitor/` 穡Python desktop app for real-time sensor monitoring and alerts.
 - `stm32mp157/`
-  - `a7_linux/` 每 MQTT client based on AWS IoT SDK (C)
-  - `m4_freertos/` 每 Embedded firmware running FreeRTOS and OpenAMP
-- `docs/` 每 System design document
-- `docs/screenshots/` 每 Screenshots and video demos
+  - `a7_linux/` 穡MQTT client based on AWS IoT SDK (C)
+  - `m4_freertos/` 穡Embedded firmware running FreeRTOS and OpenAMP
+- `docs/` 穡System design document
+- `docs/screenshots/` 穡Screenshots and video demos
 
 ## Quick Start
 
@@ -21,5 +21,5 @@ Other components can be compiled and tested separately.
 ## Note
 
 This is a personal project showcasing full-stack IoT integration.  
-Sensor noise is added for demo purposes 每 remove it in production.
+Sensor noise is added for demo purposes 穡remove it in production.
 

@@ -1,0 +1,79 @@
+# === Python GUI Project ===
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.db
+*.sqlite3
+*.bak
+#.env
+#.env.*
+venv/
+*.swp
+*.swo
+.DS_Store
+
+# config / cert / runtime files
+#*.json
+*.launch.json
+*.ini
+*.pem
+*.key
+*.crt
+
+# GUI generated logs and output
+#/demoapp/logs/
+#/demoapp/config/*.json
+#/demoapp/certs/
+
+# GUI screenshots (optional)
+#screenshots/
+#*.webm
+#*.mp4
+
+# === STM32 M4 CubeIDE Project ===
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.log
+*.srec
+*.axf
+*.dep
+
+# CubeIDE workspace and build
+.settings/
+.metadata/
+*.launch
+*.cproject
+*.mxproject
+*.project
+build/
+Debug/
+Release/
+CM4/Debug/
+CM4/Release/
+
+# === Embedded SDK / A7 Linux Side ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# === OS or Editor Files ===
+*.~*
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.user
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
